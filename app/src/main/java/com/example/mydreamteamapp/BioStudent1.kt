@@ -30,7 +30,7 @@ fun StudentOne(navController: NavController) {
         topBar = {
             TopAppBar(
                 //Surname
-                title = { Text("", color = Color(0xFF3E2F1C)) },
+                title = { Text("Biblanias", color = Color(0xFF3E2F1C)) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(
@@ -66,7 +66,7 @@ fun StudentOne(navController: NavController) {
             ) {
                 Image(
                     //image
-                    painter = painterResource(id = R.drawable.ic_launcher_background),
+                    painter = painterResource(id = R.drawable.biblanias),
                     contentDescription = "Student One",
                     modifier = Modifier
                         .size(120.dp)
@@ -79,7 +79,7 @@ fun StudentOne(navController: NavController) {
 
                 Text(
                     //name
-                    text = "",
+                    text = "Biblaninas, Iron L",
                     fontSize = 25.sp,
                     color = Color(0xFF3E2F1C)
                 )
@@ -88,7 +88,7 @@ fun StudentOne(navController: NavController) {
 
                 Text(
                     //Section & student no
-                    text = "",
+                    text = "3IT - A --- STUDENT NO.1",
                     fontSize = 13.sp,
                     color = Color(0xFF3E2F1C)
                 )
@@ -97,7 +97,7 @@ fun StudentOne(navController: NavController) {
 
                 Text(
                     //bio
-                    text = "",
+                    text = "Managed the planning and implementation of the main interface and navigation for DreamTeamApp, emphasizing clarity and project maintainability",
                     fontSize = 15.sp,
                     color = Color(0xFF3E2F1C),
                     textAlign = TextAlign.Center,
