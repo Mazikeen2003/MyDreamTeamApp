@@ -30,7 +30,7 @@ fun StudentOne(navController: NavController) {
         topBar = {
             TopAppBar(
                 //Surname
-                title = { Text("Biblanias", color = Color(0xFF3E2F1C)) },
+                title = { Text("BIBlANIAS", color = Color(0xFF3E2F1C)) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(
@@ -79,7 +79,7 @@ fun StudentOne(navController: NavController) {
 
                 Text(
                     //name
-                    text = "Biblaninas, Iron L",
+                    text = "Biblanias, Iron L",
                     fontSize = 25.sp,
                     color = Color(0xFF3E2F1C)
                 )
