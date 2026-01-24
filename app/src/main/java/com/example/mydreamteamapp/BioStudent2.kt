@@ -65,8 +65,8 @@ fun StudentTwo(navController: NavController) {
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.ic_launcher_background), // Replace with your picture
-                    contentDescription = "Gershan Carl Bon",
+                    painter = painterResource(id = R.drawable.gershancarl_bon), // Replace with your picture
+                    contentDescription = "Gershan Carl G. Bon",
                     modifier = Modifier
                         .size(150.dp)
                         .clip(CircleShape)
@@ -86,7 +86,7 @@ fun StudentTwo(navController: NavController) {
                 Spacer(modifier = Modifier.height(8.dp))
 
                 Text(
-                    text = "BSIT-3A | 2021-01234",
+                    text = "BSIT-3A | 2300366",
                     fontSize = 16.sp,
                     color = Color.Gray
                 )
